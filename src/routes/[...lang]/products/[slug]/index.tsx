@@ -24,7 +24,6 @@ import PricePerCup from '~/components/products/PricePerCup';
 export const useProductLoader = routeLoader$(async ({ params }) => {
 	const { slug } = cleanUpParams(params);
 	const product = await getProductBySlug(slug);
-
 	return product;
 });
 
