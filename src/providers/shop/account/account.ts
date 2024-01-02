@@ -10,7 +10,7 @@ import type {
 	UpdateCustomerEmailAddressMutation,
 	UpdateCustomerInput,
 	VerifyCustomerAccountMutation,
-} from '~/generated/graphql-shop.ts';
+} from '~/generated/graphql-shop';
 import { shopSdk } from '~/graphql-wrapper';
 
 export const loginMutation = async (

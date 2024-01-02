@@ -8,7 +8,7 @@ import type {
 	Customer,
 	UpdateAddressInput,
 	UpdateCustomerPasswordMutationMutation,
-} from '~/generated/graphql-shop.ts';
+} from '~/generated/graphql-shop';
 import { shopSdk } from '~/graphql-wrapper';
 
 export const getActiveCustomerQuery = async () => {

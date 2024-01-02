@@ -11,7 +11,7 @@ import type {
 	SetCustomerForOrderMutation,
 	SetOrderShippingAddressMutation,
 	SetOrderShippingMethodMutation,
-} from '~/generated/graphql-shop.ts';
+} from '~/generated/graphql-shop';
 import { shopSdk } from '~/graphql-wrapper';
 
 export const getActiveOrderQuery = async () => {

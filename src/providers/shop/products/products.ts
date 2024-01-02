@@ -1,5 +1,5 @@
 import gql from 'graphql-tag';
-import type { Product, ProductQuery, SearchInput, SearchResponse } from '~/generated/graphql-shop.ts';
+import type { Product, ProductQuery, SearchInput, SearchResponse } from '~/generated/graphql-shop';
 import { shopSdk } from '~/graphql-wrapper';
 
 export const search = async (searchInput: SearchInput) => {

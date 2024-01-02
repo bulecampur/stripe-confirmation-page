@@ -1,5 +1,5 @@
 import gql from 'graphql-tag';
-import type { Collection } from '~/generated/graphql-shop.ts';
+import type { Collection } from '~/generated/graphql-shop';
 import { shopSdk } from '~/graphql-wrapper';
 
 export const getCollections = async () => {
