@@ -1,0 +1,18 @@
+{
+	"common": {
+		"from": "von",
+		"includes": "Inkl.",
+		"or": "oder"
+	},
+	"product": {
+		"addtocart": "In den Einkaufswagen legen",
+		"description": "Produktbeschreibung",
+		"excludesShipping": "zzgl. Versandkosten",
+		"includesReducedVAT": "Inkl. 7% MwSt",
+		"orApproximately": "oder ca.",
+		"variantOptionWeight": "Verpackungsinhalt"
+	},
+	"coffee": {
+		"coffee": "Kaffee"
+	}
+}
